@@ -1,0 +1,66 @@
+user:
+create user taher 
+IDENTIFIED BY t1117268148
+///////////////////////////////////
+create table Customer(
+C_ID       number (11) primary key,
+CName      varchar (255),
+CAge       varchar (255),
+CPhone     varchar (20),
+CPassport  varchar (200),
+CMail      varchar (255),
+CCountry   varchar (255),
+CAddress   varchar (255),
+CCity      varchar (255),
+CStreat    varchar (255)
+);
+//////////////////////////////////
+create table trip(
+TR_ID        number (11) primary key,
+time_go      date,
+time_back    date,
+pla_go       varchar (255),
+pla_back     varchar (255),
+chair_coun   number (11),
+trav_com     varchar (255),
+cost    number (6,2)
+);
+//////////////////////////////////////
+create table Hotel(
+Ho_ID          number (11) primary key,
+Room_coun      varchar(255),
+Serv_kind      varchar(255),
+Stay_tim       varchar (255),
+cost           number (6,2)
+);
+////////////////////////////////////////
+create table Hot_trip(
+TR_ID        number (11),
+Ho_ID        number (11),
+constraint Hot_trip_tr_ho_pk primary key(TR_ID,Ho_ID),
+constraint Hot_trip_TR_ID_fk foreign key (TR_ID) references trip(TR_ID),
+constraint Hot_trip_Ho_ID_fk foreign key (Ho_ID) references Hotel(Ho_ID)
+) 
+//////////////////////////////////////
+CREATE TABLE Cust_trip(
+C_ID       number (11),
+TR_ID      number (11),
+constraint Cust_trip_C_ID_TR_ID_pk primary key(C_ID,TR_ID),
+constraint Cust_trip_C_ID_fk foreign key(C_ID) references Customer(C_ID),
+constraint Cust_trip_TR_ID_fk foreign key(TR_ID) references trip(TR_ID)
+)
+
+//////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+insert into Customer
+values(1,'TaherAhmed','24','01155721425','002215546655','t.taher.php@gmail.com','Egypt','cairo','cairo','20 Elshahed')
+/////////////////////////////////////
+insert into trip
+values(1,TO_DATE('1/1/1993','dd/mm/yyyy'), TO_DATE('2/2/1994','dd/mm/yyyy'),'canda','mosco',4,'estcompany',500)
+////////////////////////////////////
+insert into hotel
+values(2,'3','good','15 Days',300)
+
+

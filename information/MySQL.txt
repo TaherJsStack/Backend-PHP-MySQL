@@ -1,0 +1,57 @@
+CREATE TABLE trip(
+T_ID   		int(11) PRIMARY KEY,
+T_NO   		int(11),
+TTim_Go 	date,
+TTim_Back 	date,
+TPls_Go  	varchar(255),
+TPls_Back  	varchar(255),
+TChair_Cou  INT(11),
+TCom_Fave   varchar(255)
+)
+
+
+//////////////////////////////////////
+
+CREATE TABLE customer(
+C_ID   		int(11) PRIMARY KEY,
+C_Name   	varchar(255) NOT null,
+CAge 		varchar(255),
+C_Phone 	varchar(255) NOT null,
+C_Passpo  	varchar(255) NOT null,
+C_Mail  	varchar(255) NOT null,
+C_Counr  	varchar(255),
+C_City   	varchar(255),
+C_St   		varchar(255)
+)
+
+////////////////////////////////////////
+
+CREATE TABLE hotel(
+H_ID    int(11),
+H_Name  varchar(255),
+H_Rom_Con int(11),
+H_Serv_Kind varchar(255),
+H_Tim_Sty varchar(255)
+);
+
+/////////////////////////////////////////
+
+CREATE TABLE cust_trip(
+C_ID    int(11),
+T_ID    int(11),
+CONSTRAINT cust_trp PRIMARY KEY(C_ID,T_ID),
+CONSTRAINT cust_cust_fk FOREIGN KEY(C_ID) REFERENCES customer(C_ID),
+CONSTRAINT trp_trp_fk FOREIGN KEY(T_ID) REFERENCES trip(T_ID)
+)
+
+/////////////////////////////////////////
+
+CREATE TABLE cust_hot(
+C_ID    int(11),
+H_ID    int(11),
+CONSTRAINT cust_hot PRIMARY KEY(C_ID,H_ID),
+CONSTRAINT cus_cus_fk FOREIGN KEY(C_ID) REFERENCES customer(C_ID),
+CONSTRAINT hot_hot_fk FOREIGN KEY(H_ID) REFERENCES hotel(H_ID)
+)
+
+

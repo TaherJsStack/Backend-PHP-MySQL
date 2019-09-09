@@ -1,0 +1,259 @@
+body{
+	background-color: #dadbff;
+    margin-bottom: 62px;
+}
+h1{
+    font-weight: bold;
+    text-shadow: 0px 0px 1px #7b9292;
+    padding: 30px
+}
+
+/*============== Genral styles ===================*/
+.LogIn{
+	width: 300px;
+	margin: 200px auto;
+}
+
+.LogIn input{
+	margin-top: 5px;
+}
+
+/*============== End Login Setting =================*/
+/*============== Genral styles ===================*/
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    border-radius: unset
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #9d9d9d;
+    font-size: 18px;
+}
+/*======================= Customer Style ==================================*/
+
+.table-bordered > thead > tr > th, 
+.table-bordered > tbody > tr > th, 
+.table-bordered > tfoot > tr > th, 
+.table-bordered > thead > tr > td, 
+.table-bordered > tbody > tr > td, 
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #d7fffd;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.main-Table tr:first-child td{
+	background-color: #3e3e3e;
+	color: #fff;
+	text-align: center;
+	font-size: 11pt;
+	font-weight: bold;
+}
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+    max-height: 500px;
+}
+.main-Table .btn{
+    padding: 2px 2px;
+	box-shadow: -2px 10px 16px -6px #ccc;
+
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+    box-shadow: 0 16px 47px -30px;
+}
+
+
+
+/*======================= End Customer ==================================*/
+/*======================= Dashbord ==================================*/
+.super_info{
+    padding: 5px;
+}
+.super_info .cust-total,
+.super_info .trip-total,
+.super_info .hot-total,
+.super_info .oth-total{
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    font-size: 27px;
+    border: 1px solid #b4daf5;
+    margin-bottom: 20px;
+    box-shadow: 1px 11px 29px -11px;
+}
+.super_info .cust-total span,
+.super_info .trip-total span,
+.super_info .hot-total span,
+.super_info .oth-total span{
+    position: relative;
+}
+
+.super_info .cust-total:hover span,
+.super_info .trip-total:hover span,
+.super_info .hot-total:hover span,
+.super_info .oth-total:hover span{
+    color: #fff;
+    text-shadow: 1px 11px 29px -11px;
+
+
+}
+.super_info h4{
+    background-color: #b5cecb;
+    font-size: 23px;
+    padding: 2px;
+    border-radius: 5px;
+    color: dimgrey;
+}
+
+
+.super_info .cust-total{
+    background-color: #b7aa77;
+}
+.super_info .trip-total{
+    background-color: #8e44ad;
+}
+.super_info .hot-total{
+    background-color: #b1716b;
+}
+.super_info .oth-total{
+    background-color: #3498db;
+}
+.super_info a{
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 700
+}
+.super_info a:hover{
+    color: #000
+}
+
+.cust-info{
+    padding: 0;
+    max-height: 300px;
+    overflow: auto;
+}
+.cust-info tr:nth-child(odd) td{
+    background-color: red
+}
+
+.all-info .cust_hot .panel-body ,
+.all-info .cust_trip .panel-body {
+    padding: 15px;
+    max-height: 350px;
+    overflow: auto;
+}
+
+.container .all-info .cust_hot ul,
+.container .all-info .cust_trip ul{
+    list-style: none;
+    color: gray;
+    font-size: 19px;
+    padding: 8px 2px
+
+}
+
+.container .all-info .cust_hot ul li,
+.container .all-info .cust_trip ul li{
+    padding: 5px;
+    max-height: 300px;
+    overflow: auto;
+    border-radius: 3px;
+
+}
+.cst_info .panel-default > .panel-heading {
+    background-color: #b7aa77;
+    border-color: #333;
+    color: #eafffb;
+    font-size: 20px;
+}
+
+.cust-info tr:nth-child(odd) td,
+.container .all-info .cust_trip ul li:nth-child(odd) {
+    background-color: #b7aa77;
+    color: #353535;
+}
+.all-info .cust_hot .panel-default > .panel-heading {
+    color: #333;
+    background-color: #8e44ad;
+    border-color: #ddd;
+    color: #edfffb;
+    border-radius: 3px;
+}
+.container .all-info .cust_hot ul li:nth-child(odd){
+    background-color: #8e44ad;
+    color: #353535;
+}
+
+
+.all-info .cust_trip .panel-default > .panel-heading{
+    color: #defffb;
+    background-color: #b1716b;
+    border-color: #ddd;
+}
+
+.container .all-info .cust_trip ul li:nth-child(odd) {
+    background-color: #b1716b;
+    color: #353535;
+}
+
+
+.cust-info tr:nth-child(odd) td:hover,
+.cust-info tr:nth-child(even) td:hover,
+.container .all-info .cust_hot ul li:nth-child(odd):hover ,
+.container .all-info .cust_hot ul li:nth-child(even):hover ,
+.container .all-info .cust_trip ul li:nth-child(odd):hover ,
+.container .all-info .cust_trip ul li:nth-child(even):hover {
+    background-color: #535656;
+}
+.main-Table tr:first-child td{
+    background-color: #3e3e3e;
+    color: #fff;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.container .all-info .cust_hot ul li a,
+.container .all-info .cust_trip ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    text-shadow: 0px 0px 3px #9c9999;
+}
+
+/*======================= End Dashbord ==================================*/
+/*======================= End Dashbord ==================================*/
+.ticket h3 strong{
+    color: #ff5d5d;
+    font-weight: bold;
+}
+.ticket .serch ul span{
+    display: inline-block;
+    width: 85px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #3f4c35;
+}
+.ticket .serch li{
+    padding: 5px 1px 5px 10px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 12px;
+    color: #4c4c4
+}
+.ticket .serch ul li:nth-child(odd){
+    background-color: #0072ffc2;
+
+}
+
+
+
+
+/*======================= End Ticket ==================================*/

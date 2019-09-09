@@ -1,0 +1,2233 @@
+body{background-color: #03b6e7;}
+/*body{
+    background : -moz-linear-gradient(0% 50% 0deg,rgba(255, 255, 255, 1) 0%,rgba(0, 0, 0, 1) 100%);
+    background : -webkit-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(255, 255, 255, 1) ),color-stop(1,rgba(0, 0, 0, 1) ));
+    background : -o-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background : -ms-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#000000' ,GradientType=0)";
+    background : linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+*/
+ h1{
+    /*background-color: rgba(0,0,0,0.5);*/
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 30px;
+    padding: 50px 0 90px 0;
+    font-weight: bold;
+    font-variant: diagonal-fractions;   
+}
+ h1:hover{
+    color: yellow;
+    text-shadow: 3px 3px 11px #ff2f2f
+}
+/*======================= End Main Style ==================================*/
+/*======================= Main Style ==================================*/
+
+/*======================= End Main Style ==================================*/
+.uper{
+       color: #fff;
+    background-color: rgba(0,0,0,.5);
+}
+.uper-nav{
+    color: #fff;
+}
+.uper-nav div{
+    display: -webkit-inline-box;    
+    display: -moz-inline-box;
+    display: inline-box;
+}
+.uper-nav ul{
+    display: -webkit-inline-box;    
+    display: -moz-inline-box;
+    display: inline-box;
+    list-style: none;
+    margin-bottom: 0;
+}
+.uper-nav ul li a{
+    color: #fff;
+    margin:0 3px;
+}
+/*======================= Navbar  ==================================*/
+.navbar{
+	margin-bottom: 0;
+	border:0;
+	border-radius: 0;}
+.dropdown-menu{
+	min-width: 130px;
+    padding: 0px 0;
+    margin: 2px 0 0;}
+.dropdown-menu,
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus{
+	color: #fff;
+	background-color: #34495e;
+	border: 0;}
+.navbar-inverse .navbar-nav > li > a{
+	color: #fff;}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0e0e0e;}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #f1fffc;
+    white-space: nowra}
+.navbar-brand > img {
+    display: block;
+    width: 117px;
+    margin: -6px auto;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: yellow;
+    text-shadow: 3px 3px 11px #ff2f2f;
+}
+/*======================= End navebar ==================================*/
+/*======================= Customer Style ==================================*/
+.table-bordered > thead > tr > th, 
+.table-bordered > tbody > tr > th, 
+.table-bordered > tfoot > tr > th, 
+.table-bordered > thead > tr > td, 
+.table-bordered > tbody > tr > td, 
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #d7fffd;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle !important;}
+.main-Table tr:first-child td{
+	background-color: #3e3e3e;
+	color: #fff;
+	text-align: center;
+	font-size: 15pt;
+	font-weight: bold;}
+.main-Table .btn{
+    padding: 2px 8px;
+	box-shadow: -2px 10px 16px -6px #ccc;}
+.table-bordered {
+    border: 1px solid #ddd;
+    box-shadow: 0 16px 47px -30px;}
+/*======================= End Customer ==================================*/
+/*======================= Dashbord ==================================*/
+.super_info{
+    padding: 5px;}
+.super_info .cust-total,
+.super_info .trip-total,
+.super_info .hot-total,
+.super_info .oth-total{
+    border-radius: 25px;
+    /*height: 135px;*/
+    padding: 10px;
+    text-align: center;
+    font-size: 27px;
+    border: 1px solid #b4daf5;
+    margin-bottom: 20px;
+    box-shadow: 1px 11px 29px -11px;}
+.super_info h4{
+    background-color: #b5cecb;
+    font-size: 23px;
+    padding: 2px;
+    border-radius: 5px;
+    color: dimgrey;}
+.super_info .cust-total{
+    background-color: #b7aa77;}
+.super_info .trip-total{
+    background-color: #8e44ad;}
+.super_info .hot-total{
+    background-color: #b1716b;}
+.super_info .oth-total{
+    background-color: #3498db;}
+.super_info a{
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 700}
+.cust-info{
+    padding: 0;
+    max-height: 300px;
+    overflow: auto;}
+.cust-info tr:nth-child(odd) td{
+    background-color: red}
+.all-info .cust_hot .panel-body ,
+.all-info .cust_trip .panel-body {
+    padding: 15px;
+    max-height: 350px;
+    overflow: auto;}
+.container .all-info .cust_hot ul,
+.container .all-info .cust_trip ul{
+    list-style: none;
+    color: gray;
+    font-size: 19px;
+    padding: 8px 2px}
+.container .all-info .cust_hot ul li,
+.container .all-info .cust_trip ul li{
+   padding: 5px
+    max-height: 300px;
+    overflow: auto;}
+.cust-info tr:nth-child(odd) td,
+.container .all-info .cust_hot ul li:nth-child(odd) ,
+.container .all-info .cust_trip ul li:nth-child(odd) {
+    background-color: #b5cecb;}
+.cust-info tr:nth-child(odd) td:hover,
+.cust-info tr:nth-child(even) td:hover,
+.container .all-info .cust_hot ul li:nth-child(odd):hover ,
+.container .all-info .cust_hot ul li:nth-child(even):hover ,
+.container .all-info .cust_trip ul li:nth-child(odd):hover ,
+.container .all-info .cust_trip ul li:nth-child(even):hover {
+    background-color: #535656;}
+.main-Table tr:first-child td{
+    background-color: #3e3e3e;
+    color: #fff;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;}
+.container .all-info .cust_hot ul li a,
+.container .all-info .cust_trip ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;}
+/*======================= End Dashbord ==================================*/
+/*======================= Main Style ==================================*/
+/*======================= End Dashbord ==================================*/
+/*======================= Main Style ==================================*/
+/*======================= End Dashbord ==================================*/
+/*======================= Main Style ==================================*/
+/*======================= End Dashbord ==================================*/
+/*======================= Main Style ==================================*/
+/*======================= End Dashbord ==================================*/
+/*======================= Main Style ==================================*/
+/*======================= End Dashbord ==================================*/
+/*======================= Main Style ==================================*/
+
+.padding{
+    padding: 90px 0;
+}
+.alert-info{
+    border-left: 8px solid brown;
+    background-color: rgba(0,0,0,.5);
+}
+.alert-info h2{
+    font-size: 35px;
+    color: #fff;
+    font-variant: all-petite-caps;
+}
+    /*======================= End Main Style ==================================*/
+
+.login{
+    width: 300px;
+    margin: 150px auto}
+.login input{
+    margin-bottom: 10px }
+    
+    /*======================= End login Style ==================================*/
+
+#welcome{ 
+   position: relative;
+    margin-bottom: 560px;
+}
+#welcome .welcome{
+    background: url(../img/header.jpg)  no-repeat  center 53% fixed;
+    background-size: 148%;
+    width: 100%;
+    height: 560px;
+    position: absolute;
+}
+.welcome h1{
+    background-color:rgba(245, 192, 42, 0.42);
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+    font-weight: bold;
+    font-variant: diagonal-fractions;   
+}
+.welcome h1:hover{
+    
+    text-shadow: 3px 3px 11px rgba(191, 92, 7, 0.42);
+
+}
+
+.welcome .info {
+    background-color: rgba(0,0,0,0.8);
+    width: 354px;
+    height: 362px;
+    color: #f5c02a;
+    font-size: 50px;
+    font-size: -webkit-xxx-large;
+    --moz--font-size: xxx-large;
+    border-radius: 6px;
+    padding: 9px;
+    margin-left: 20px;
+}
+.welcome .more-info {
+    margin-top: 90px;
+}
+.welcome .more-info .btn{
+    background-color: #95aabb;
+    border: none;
+}
+.welcome .more-info .btn:hover{
+    background-color: #f5c02a;
+    color: #000
+}
+/*=============== head ===========================*/
+#head{
+    width: 100%;
+    position: relative;
+
+}
+#head .top{
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+}
+#head .top p{
+    color: #fff;
+    font-size: 20px;
+    padding: 55px 0;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+}
+#head #under{
+    width: 100%;
+    height: 833px;
+    position: absolute;
+   /* background: url("../img/parteners/parteners.jpg") center center no-repeat;*/
+    overflow: hidden;
+    margin: auto;
+}
+#head #under video{
+    width: 100%;
+    margin:auto;
+}
+
+/*============= End head ======================*/
+/*============= Map ========================*/
+.map iframe{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+    z-index: 100;
+    margin-top: 130px;
+}
+/*============= latest ========================*/
+.latest{
+    margin-top: 53px;
+}
+
+.latest .box{
+    width: 250px;
+    height: 300px;
+    background-color: blue;
+    /*border: 2px solid green;*/
+    position: relative;
+    overflow: hidden;
+
+}
+.latest .box .btop{
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 0;
+}
+.latest .box  img{
+    width: 100%
+}
+.latest .box .bunder{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    z-index: 4;
+    transition: 1s ease-in-out;
+    color: cornsilk;
+}
+.latest .box:hover .bunder{
+    top: 0px;
+}
+.latest .box div h3{
+    text-align: center;
+    padding: 10px 0px 10px 0;
+    margin-top: 17px;
+    background-color: rgba(0,0,0,.5)
+}
+.latest .box div p{
+    padding: 11px;
+    background-color: rgba(0,0,0,.5)
+
+}
+.latest .box div p span{
+    display: -webkit-box;
+    padding: 13px 0;
+    background-color: rgba(0,0,0,.5)
+    
+}
+.latest div .sometext  h3{
+    font-size: 26px;
+    margin: 53px 0px 0 82px;
+    font-weight: bold;
+}
+.latest div .sometext  h5{
+    padding: 34px 0px;
+    margin: 40px 0 0px 0px;
+    font-size: large;
+ /*   -webcit-column-count: auto;
+     column-count: 2;*/
+ }
+.latest div .sometext  p{
+    padding: 20px 0px;
+    margin: 40px 0 0px 0px;
+    column-count: 2
+} 
+.latest div .sometext  h5 span,
+.latest div .sometext  p span{
+    color: #fff;
+    font-weight: 600
+}
+/*============= End latest ========================*/
+
+.scrib{
+    background-image: url(../img/scrip/scripe.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 0;
+}
+.scrib h5{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    margin: 31px 0 52px 0;
+}
+.scrib h5 span{
+    color: red;
+}
+.scrib .scripe-box{
+    background-color: rgba(0,0,0,.4);
+    padding: 20px;
+    border-radius: 20px 0 20px 0;
+}
+.scrib .scripe-box form [type="email"]{
+
+    width: 380px;
+    background-color: rgba(0,0,0,.11111111111);
+    font-size: 17px;
+    box-shadow: 0px 0px 12px 4px #fff;
+    color: #fff;
+    border:none;
+}
+.scrib .scripe-box form [type="submit"]{
+    color: #fff;
+    background-color: #f5c02a;
+    border-color: #ccc;
+    border: none;
+    font-style: italic;
+    font-variant: all-small-caps;
+    font-weight: 600;
+}
+.scrib .scripe-box hr{
+    margin-top: 20px;
+    margin-top: 67px;
+    width: 240px;
+    border: .8px red solid;
+}
+.scrib .scripe-box h4{
+    font-variant: all-petite-caps;
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+
+}
+.scrib .scripe-box h4 span{
+    color: #f5c02a;
+    font-size: larger;
+}
+
+/*============= End scrib ========================*/
+
+.offers{
+    margin-top: 53px;
+
+}
+.offers h1{
+    margin: 0 0 100px 0px;
+
+}
+.offers .offer-box{
+    width: 346px;
+    height: 398px;
+    /*background-color: blue;*/
+    /*border: 2px solid green;*/
+    position: relative;
+    --webkit--transition: all 10s ease-in-out;
+    transition: all 1.5s ease-in-out;
+
+}
+
+
+.offers .offer-box .otop{
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 0;
+    --webkit--transition: all 10s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    overflow: hidden;
+}
+.offers .offer-box .otop img{
+    --webkit--transition: all 10s ease-in-out;
+    --moz--transition: all 10s ease-in-out;
+
+    transition: all 1.5s ease-in-out;
+
+}
+.offers .offer-box .otop:hover img{
+    transform: scale(1.2);
+    --webkit--transition: all 10s ease-in-out;
+    --moz--transition: all 10s ease-in-out;
+    transition: all 1.5s ease-in-out;
+
+}
+.offers .offer-box .medl{
+    width: 1%;
+    height: 1%;
+    margin: auto;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    --webkit--transition: all 10s ease-in-out;
+    display: none;
+}
+
+
+.offers .offer-box .ounder{
+    width: 100%;
+    height: 42%;
+    background-color: rgba(0,0,0,1);
+    position: absolute;
+    top: 231px;
+    left: 0px;
+    z-index: 4;
+    transition: 10s ease-in-out;
+    color: cornsilk;
+    /*transform: rotate(-180deg);*/
+}
+.offers .offer-box .ounder:hover{
+    transform: rotate(0deg);
+
+}
+/*
+.offers .offer-box:hover .under{
+    top: 0px;
+}
+*/
+.offers .offer-box div h3{
+    text-align: center;
+    margin-top: 17px;
+    background-color: rgba(0,0,0,.5)
+}
+.offers .offer-box div p{
+    padding: 11px;
+    background-color: rgba(0,0,0,.5)
+
+}
+.offers .offer-box div  span{
+    padding: 13px 0;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: -277px;
+    left: -44px;
+    width: 65px;
+    height: 65px;
+    line-height: 40px;
+    text-align: -webkit-center;
+    --moz--text-align: center;
+    text-align: center; 
+    border-radius: 30px;
+    border: 1px solid blueviolet;
+}
+
+/*============= End scrib ========================*/
+.deal{
+    background: url("../img/deal/deal.jpg") center center no-repeat fixed ;
+    background-size: cover;
+    color: #fff
+}
+.deal h1{
+        margin: 0px 0 90px 0px;
+}
+.deal .deal-box{
+    background-color: rgba(0,0,0,.5);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+/*============= End scrib ========================*/
+
+/*------------------------------------- Testimonials Section --------------------------------------------------------*/
+.how-it-work{
+    background-color: #08c2f5;
+}
+.how-it-work h3{
+    font-size: 31px;
+    margin-top: 7px;
+    font-weight: 700
+}
+.how-it-work h3, 
+.how-it-work h4{
+    color: #f7fb00;
+    text-shadow: 2px 3px 12px #171711;
+}
+.how-it-work p{
+    color: #e8e8e8
+}
+/*------------------------------------- Testimonials Section --------------------------------------------------------*/
+/*------------------------------------- Testimonials Section --------------------------------------------------------*/
+.Testimonials{
+    background-color: #03b6e7;
+    padding: 50px 0;
+}
+.Testimonials h1{
+    margin-top: 90px;
+}
+.Testimonials h6{
+    color: #fff;
+}
+.Testimonials>div>img{
+    margin-top: -50px;
+    position: absolute
+}
+.Testimonials>.container>.test>.carousel>.carousel-indicators{
+    position: static;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+}
+.Testimonials>.container>.test>.carousel>.carousel-indicators li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    text-indent: -0px; 
+    cursor: pointer; 
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    opacity: 0.5;
+    border-radius: none;
+    border: none;
+    
+}
+.Testimonials>.container>.test>.carousel>.carousel-indicators .active{
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    opacity: 1
+
+}
+.Testimonials>.container>.test>.carousel>.carousel-indicators>li>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.Testimonials>.container>.test>.carousel>.carousel-indicators>li>img  .active{
+    width: 35px;
+}
+.Testimonials>.container>.test>.carousel>.carousel-inner>.item>p{
+    text-align: center;
+    width: 875px;
+    color: aqua;
+    margin: 25px auto;
+}
+.Testimonials>.container>.test>.carousel>.carousel-inner>.item>h6{
+    font-size: 14pt;
+    color: #fff;
+}
+.Testimonials>.container>.test>.carousel>.carousel-inner>.item>h6,
+.Testimonials>.container>.test>.carousel>.carousel-inner>.item>span{
+    color: aquamarine;
+}
+/*------------------------------------- End Testimonials Section -----------------------------------------------------*/
+
+.partener{
+    background: url("../img/par/cc.jpg") center center no-repeat fixed;
+    background-size: cover;
+
+}
+.partener .partener-box .ul ul {
+    display: -webkit-inline-box;
+    display: -moz-inline-box
+}
+.partener .partener-box .ul ul li{
+    /*background-color: red;*/
+    list-style: none;
+    display: -moz-inline-box;
+    --webkit--display: inline-box;
+    margin: 42px 9px 27px 35px;
+}
+.partener .partener-box .ul ul li img{
+    width: 70%;
+    border-radius: 20px;
+    --webkit--transition: all 1s ease-in-out;
+    --moz--transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.partener .partener-box .ul ul li img:hover{
+    transform: scale(1.2);
+    --webkit--transition: all 1s ease-in-out;
+    --moz--transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+/*------------------------------------- End partener Section -----------------------------------------------------*/
+
+.End{
+    background-color: #03b6e7;
+}
+.End .padding{
+    padding:40px 0; 
+}
+.End .right-side{
+}
+.End .right-side a{
+    color: #fff
+}
+.End .right-side hr{
+    border:1px solid blue;
+        margin-top: 35px;
+}
+.End .right-side p,
+.End .right-side form p{
+    padding-bottom: 10px;
+    color: #fff
+}
+.End .right-side form [type="email"]{
+    background-color: #03b6e7;
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    padding-left: 14px;
+}
+.End .right-side form [type="submit"]{
+    width: 19%;
+    color: white;
+    height: 35px;
+    background-color: #03b6e7;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.End .left-side ul{
+    list-style: none;
+    font-size: 17px;
+    padding-left: 0
+}
+.End .left-side ul a{
+    color: #fff;
+}
+
+.End .left-side ul a img{
+    width: 69%;
+    margin-top: 3px;
+}
+
+
+
+/*------------------------------------- Up  Section -----------------------------------------------------*/
+#up{
+    background-color: #04607a;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    font-size: 40px;
+    display: none;
+    padding: 0 4px;
+    border-radius: 100px 100px 0px 0px;
+}
+#up:hover{
+    background-color: #213327;
+}
+#up a{
+    color: #f5c02a
+}
+
+
+/*------------------------------------- End Up Section -----------------------------------------------------*/
+
+
+
+/*------------------------------------- End footer Section -----------------------------------------------------*/
+/*------------------------------------- Pages Styl -----------------------------------------------------*/
+/*------------------------------------- Pages Styl -----------------------------------------------------*/
+/*------------------------------------- Pages Styl -----------------------------------------------------*/
+/*------------------------------------- Pages Styl -----------------------------------------------------*/
+
+
+/*------------------------------------- Hotels Pages Styl -----------------------------------------------------*/
+#baralax{
+    width: 100%;
+    height:600px; 
+    position: relative;
+    overflow: hidden;
+}
+#baralax .top{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+}
+#baralax .top p{
+    color: #fff;
+    font-size: 20px;
+    padding: 55px 0;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+}
+#baralax .under{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    background: url("../img/hotels/paralax.jpg") center center no-repeat;
+    overflow: hidden;
+
+}
+
+/*============= End head ======================*/
+.Hotels{
+}
+.Hotels p{
+    padding: 20px;
+    margin-bottom: 40px
+}
+.Hotels .hotel-box{
+    padding: 6px 15px 65px 5px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+}
+.Hotels .hotel-box:last-child{
+    border-bottom: none;
+
+}
+.Hotels .hotel-box h3{ 
+
+}
+.Hotels .hotel-box h5{ 
+}
+.Hotels .hotel-box h5 strong{ 
+    color: #fff134
+}
+.Hotels .hotel-box video,
+.Hotels .hotel-box img{ 
+    width: 90%;
+    margin: 15px 0;
+}
+.Hotels .hotel-box p{ 
+    padding: 5px 70px 1px 0px;
+    color: #fff;
+}
+.Hotels .hotel-box div{ 
+    padding: 5px 70px 0px 0px
+
+}
+
+.Hotels .right-side{
+    background-color: red;
+}
+.Hotels .right-side h3{
+}
+
+.Hotels .right-side a{
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #24434c;
+    border:none;
+}
+.Hotels .right-side a:hover{
+    margin-bottom: 11px;
+    color: #000;
+    background-color: #f5c02a;
+}
+
+.Hotels .right-side img{
+    width: 100%;
+}
+
+.Hotels .right-side span{
+    font-size: 12px;
+    color: orange;
+}
+.Hotels .right-side p{
+    font-size: 9px;
+    padding: 0px
+}
+.Hotels .right-side col-md-6{
+    padding: 1px
+}
+.Hotels .right-side .recent-news div{
+        padding: 1px 12px 0px 2px;
+}
+.Hotels .right-side .tags .btn{
+    margin: 10px 10px;
+    border:none;
+
+}
+.Hotels .right-side .tags .btn:hover{
+    border:none;
+    background-color: #fff134;
+    color: #fff;
+}
+
+
+
+
+/*============= End head ======================*/
+
+
+
+
+/*------------------------------------- End Hotels Page -----------------------------------------------------*/
+
+#baralax-trip{
+    width: 100%;
+    height:600px; 
+    position: relative;
+    overflow: hidden;
+}
+#baralax-trip .top{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+}
+#baralax-trip .top p{
+    color: #fff;
+    font-size: 20px;
+    padding: 55px 0;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+}
+#baralax-trip .top h1{
+    margin-top: 200px;
+    font-size: 50px;
+}
+#baralax-trip .top h1 span strong{
+    color: #f5c02a;
+    background-color: rgba(0,0,0,.8);
+}
+#baralax-trip .under{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    background: url(../img/trip/trip.JPG) center -242px no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+
+}
+
+/*------------------------------------- End trips Page -----------------------------------------------------*/
+/*------------------------------------- News Page -----------------------------------------------------*/
+
+#baralax-news{
+    width: 100%;
+    height:600px; 
+    position: relative;
+    overflow: hidden;
+}
+#baralax-news .top{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+}
+#baralax-news .top p{
+    color: #fff;
+    font-size: 20px;
+    padding: 55px 0;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+}
+#baralax-news .top h1{
+    margin-top: 200px;
+    font-size: 50px;
+}
+#baralax-news .top h1 span strong{
+    color: #f5c02a;
+    background-color: rgba(0,0,0,.8);
+}
+#baralax-news .under{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    background: url(../img/news/heade.jpg) center -242px no-repeat;
+    background-size: 150%;
+    overflow: hidden;
+
+}
+/*//////////////////*/
+.topNews .box1{
+    background: url(../img/news/topNews.jpg) center -337px no-repeat;
+    background-size: 101%;
+    height: 350px;
+    background-color:green;
+}
+.topNews .box1 div{
+    width: 460px;
+    height: 100%;
+    background-color: rgba(253, 253, 253, 0.8);
+    padding:30px;
+}
+.topNews .box1 div span{
+    font-size: 24px;
+    color: #a20a0a;
+    font-variant-caps: all-petite-caps;
+}
+.topNews .box1 div h3{
+    font-style: inherit;
+    font-variant: all-small-caps;
+    font-size: 31px;
+    font-weight: 600;
+    text-shadow: 0px 1px 23px #000;
+}
+.topNews .box1 div p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #272e69;
+}
+.all-news .box{
+}
+.all-news .text{
+    margin: 90px 0; 
+    height: 300px;
+    background: url(../img/news/victoria.jpg) center center no-repeat fixed;
+    text-shadow: 0px 1px 23px #000;
+    background-size: 100%;
+}
+.all-news .text h3{
+    text-shadow: 0px 1px 23px #8ee688;
+    color: #f5c02a;
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    line-height: 299px;
+    font-size: 29px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.all-news .box h3{
+    padding: 0;
+    margin:0;
+    background:unset; 
+}
+.all-news .box img{
+    width: 100%;
+}
+.all-news  .box p {
+}
+.all-news  .box  p span{
+    color: brown;
+    font-size: 15px;
+    padding: 9px;
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+}
+.statistc{
+     margin: 90px 0; 
+    background: url(../img/news/statistc.JPG) center center no-repeat fixed;
+    text-shadow: 0px 1px 23px #000; 
+    color: #f5c02a;
+    text-align: center;  
+}
+.statistc .backgroun{
+    background-color: rgba(0,0,0,.8);
+    height: 100%;
+    padding: 60px;
+}
+.statistc .backgroun .box{
+}
+.statistc .backgroun .box div{
+font-size: 34px;
+}
+.statistc .backgroun .box i{
+    font-size: 94px;
+    color: #f5c02a;
+    margin-left: 81px;
+
+}
+.statistc .backgroun .box p{
+        display: inline;
+        font-size: 23px;
+}
+.statistc .backgroun .box span{
+        display: inherit;
+    text-align: center;
+    font-size: 42px
+}
+
+
+/*------------------------------------- End News Page -----------------------------------------------------*/
+
+
+/*------------------------------------- about Us Page -----------------------------------------------------*/
+.welcom{
+
+}
+
+/*////////////////*/
+#baralax-story{
+    width: 100%;
+    height:800px; 
+    position: relative;
+    overflow: hidden;
+}
+#baralax-story .top{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+    top: 120px;
+}
+#baralax-story .top p{
+    color: #fff;
+    font-size: 20px;
+    padding: 23px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+    text-shadow: 0px 0px 4px #f5c02a;
+    font-variant-caps: small-caps;
+}
+#baralax-story .top h1{
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 25px;
+
+}
+#baralax-story .top h1 span strong{
+    color: #f5c02a;
+    background-color: rgba(0,0,0,.8);
+    
+}
+#baralax-story .under{
+    width: 100%;
+    height: 197%;
+    position: absolute;
+    background: url(../img/aboutus/aboutus.jpg) center 700px no-repeat;
+    background-size: 123%;
+    overflow: hidden;
+
+}
+
+/*////////////////*/
+.views{
+
+    background: url(../img/aboutus/views.jpg) center center no-repeat fixed;
+
+}
+/*////////////////*/
+.Mission{
+
+}
+/*////////////////*/
+.vision{
+
+    background: url(../img/aboutus/vision.png) center center no-repeat fixed;
+
+}
+/*////////////////*/
+
+.welcom  p,
+.views  p,
+.Mission p,
+.vision p{
+    color: #fff;
+    font-size: 20px;
+    padding: 23px;
+    background-color: rgba(0,0,0,.9);
+    border-radius: 5px;
+    text-shadow: 0px 0px 4px #f5c02a;
+}
+
+
+
+
+
+
+/*------------------------------------- End About Us Page -----------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------- End  Section -----------------------------------------------------*/
+
+
+
+/*------------------------------------- @media Styl -----------------------------------------------------*/
+/*------------------------------------- @media Styl -----------------------------------------------------*/
+/*------------------------------------- @media Styl -----------------------------------------------------*/
+/*------------------------------------- @media Styl -----------------------------------------------------*/
+
+
+/*-------------------------------------  @media Styl -----------------------------------------------------*/
+
+
+@media (max-width: 320px) {
+ #welcome {
+    position: relative;
+    margin-bottom: 162px;
+}   
+#welcome .welcome {
+    background: url(../img/header.jpg) no-repeat center -1% fixed;
+    background-size: 148%;
+    width: 100%;
+    height: 162px;
+    position: absolute;
+}
+.welcome h1 {
+    background-color: rgba(245, 192, 42, 0.42);
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    padding: 9px;
+    margin-top: 9px;
+ }
+.welcome .info {
+    background-color: rgba(0,0,0,0.7);
+    width: 90px;
+    height: 85px;
+    color: #f5c02a;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+.btn-lg, .btn-group-lg > .btn {
+    padding: 5px;
+    font-size: 11px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+.welcome .more-info {
+    margin-top: 0;
+}
+.welcome .col-xs-6 {
+    width: 37%;
+}
+.welcome .well {
+    min-height: 16px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: #842d2d;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    width: 147px;
+}
+.welcome  .form-control {
+    display: block;
+    width: 100%;
+    height: 20px;
+    padding: 0px 4px;
+    font-size: 9px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+
+}
+.welcome  .btn {
+    display: inline-block;
+    padding: 1px 12px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+#head .top p {
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 8px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+}
+.latest {
+    margin-top: 0;
+}
+.padding {
+    padding: 0px 0;
+}
+h1 {
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 23px;
+    padding: 0px 0 30px 0;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+.latest .col-md-3{
+    margin-bottom: 13px;
+}
+.latest div .sometext h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin:50px 0px;
+}
+.latest div .sometext h5 {
+    padding:0px;
+    margin:0px;
+    font-size: small;
+}
+.scrib h5 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 13px;
+    text-align: center;
+    margin: 31px 0 52px 0;
+}
+.scrib .scripe-box form [type="email"] {
+    width: 230px;
+    background-color: rgba(0,0,0,.11111111111);
+    font-size: 11px;
+    box-shadow: 0px 0px 12px 4px #fff;
+    color: #fff;
+    border: none;
+}
+.scrib .scripe-box form [type="submit"] {
+    color: #fff;
+    background-color: #f5c02a;
+    border-color: #ccc;
+    border: none;
+    font-style: italic;
+    font-weight: 600;    
+    font-size: 11px;    
+    padding: 6px 8px;
+}
+.scrib .scripe-box {
+    background-color: rgba(0,0,0,.4);
+    padding: 8px;
+    border-radius: 20px 0 20px 0;
+}
+.scrib .scripe-box hr {
+    margin-top: 20px;
+    margin-top: 0px;
+    width: 203px;
+}
+.scrib .scripe-box h4 {
+    font-variant: all-petite-caps;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+.offers h1 {
+    margin: 0px 0 28px 0px;
+}
+.offers .offer-box {
+    width: 260px;
+    height: 398px;
+    /* background-color: blue; */
+    /* border: 2px solid green; */
+    position: relative;
+    /* --webkit--transition: all 10s ease-in-out; */
+    /* transition: all 1.5s ease-in-out; */
+    margin-left: 17px;
+        margin-bottom: 30px;
+}
+.offers .offer-box div span {
+    padding: 3px 0;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: -255px;
+    left: -18px;
+    width: 50px;
+    height: 50px;
+    line-height: 47px;
+    text-align: -webkit-center;
+    --moz--text-align: center;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid blueviolet;
+}
+.deal h1 {
+    margin: 31px 0 90px 0px;
+}
+.deal .btn {
+    margin-bottom: 7px;
+}
+
+.Testimonials>.container>.test>.carousel>.carousel-inner>.item>p {
+    text-align: center;
+    width: 260px;
+    color: aqua;
+    margin: 25px auto;
+}
+
+.Testimonials>div>img {
+    margin-top: -50px;
+    position: absolute;
+    width: 64px;
+}
+.Testimonials h1 {
+    margin-top: 26px;
+}
+
+.partener .partener-box .ul ul li {
+    /* background-color: red; */
+    list-style: none;
+    display: -moz-inline-box;
+    --webkit--display: inline-box;
+    margin: 18px -31px 19px 16px;
+    width: 55px;
+}
+.partener .partener-box .ul ul {
+    padding: 1px;
+}
+
+.partener .partener-box .ul ul li img {
+    width: 70%;
+    border-radius: 12px;
+    --webkit--transition: all 1s ease-in-out;
+    --moz--transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+/*////////// End Home Page /////////////*/
+
+#baralax {
+    height: 187px;
+}
+#baralax .under {
+
+    background-size: 100%;
+}
+.End .right-side p, .End .right-side form p {
+    padding: 10px 16px;
+    color: #fff;
+}
+.Hotels p {
+    font-size: 12px;
+}
+.Hotels .hotel-box {
+    margin-bottom: 0px;
+}
+
+
+.Hotels .hotel-box p {
+    padding: 5px 0px 1px 0px;
+    color: #fff;
+}
+.Hotels p {
+    padding: 20px;
+    margin-bottom: -3px;
+}
+.Hotels .right-side {
+    background-color: #03b6e7;
+}
+
+
+/*////////// End hotel Page /////////////*/
+
+#baralax-trip .under {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    background: url(../img/trip/trip.JPG) center center no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+/*////////// End hotel Page /////////////*/
+#baralax-trip {
+    width: 100%;
+    height: 199px;
+    position: relative;
+    overflow: hidden;
+}
+
+#baralax-trip .top h1 {
+    margin-top: 55px;
+    font-size: 19px;
+}
+h1 {
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 23px;
+    padding: 0px 0 30px 0;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+#autoImg{
+        width: 276px;
+    margin: auto;
+}
+#firstSection h3{
+    margin-left: 30px;
+}
+#firstSection  p{
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+/*/////////////////////////////////*/
+
+#baralax-news .top h1 {
+    margin-top: 20px;
+    font-size: 14px;
+}
+#baralax-news .under {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    background: url(../img/news/heade.jpg) center center no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+#baralax-news {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+}
+.topNews .box1 div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(253, 253, 253, 0.6);
+    padding: 20px;
+}
+.topNews .box1 div h3 {
+    font-style: inherit;
+    font-variant: all-small-caps;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 0px 1px 23px #000;
+}
+.topNews .box1 div h3 {
+    font-style: inherit;
+    font-variant: all-small-caps;
+    font-size: 12px;
+    font-weight: 600;
+    text-shadow: 0px 1px 23px #000;
+}
+.all-news .text {
+    margin: 20px 0;
+    height: 201px;
+    background: url(../img/news/victoria.jpg) center center no-repeat fixed;
+    text-shadow: 0px 1px 23px #000;
+}
+.all-news .text h3 {
+    text-shadow: 0px 1px 23px #8ee688;
+    color: #f5c02a;
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    line-height: 162px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.all-news .box h3 {
+    padding: 0;
+    margin: 0;
+    background: unset;
+    font-size: 20px;
+}
+.all-news .box p {
+    font-size: 11px;
+}
+.all-news .box p span {
+    color: brown;
+    font-size: 13px;
+    padding: 9px;
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+}
+.all-news .box .btn {
+    display: inline-block;
+    padding: 3px 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.statistc {
+    margin: 0 0;
+    background: url(../img/news/statistc.JPG) center center no-repeat fixed;
+    text-shadow: 0px 1px 23px #000;
+    color: #f5c02a;
+    text-align: center;
+}
+.statistc .backgroun .box i {
+    font-size: 55px;
+    color: #f5c02a;
+    margin-left: 0%;
+}
+.statistc .backgroun .box span {
+    display: inherit;
+    text-align: center;
+    font-size: 20px;
+}
+.statistc .backgroun .box {
+    margin-top: 50px;
+}
+.statistc .backgroun .box div {
+    font-size: 22px;
+}
+.statistc .backgroun .box p {
+    display: block;
+    font-size: 16px;
+}
+.statistc .backgroun {
+    background-color: rgba(0,0,0,.8);
+    height: 100%;
+    padding: 9px;
+}
+.topNews .box1 {
+    background: url(../img/news/topNews.jpg) center center no-repeat;
+    background-size: 101%;
+    height: 100%;
+}
+.welcom p, .views p, .Mission p, .vision p {
+    color: #fff;
+    font-size: 11px;
+    padding: 19px;
+    background-color: rgba(0,0,0,.9);
+    border-radius: 5px;
+    text-shadow: 0px 0px 4px #f5c02a;
+}
+#baralax-story .top p {
+    color: #fff;
+    font-size: 10px;
+    padding: 12px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+    text-shadow: 0px 0px 4px #f5c02a;
+    /* font-variant-caps: small-caps; */
+    margin-left: 57px;
+}
+#baralax-story .top {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+    top: -11px;
+}
+#baralax-story {
+    width: 100%;
+    height: 403px;
+    position: relative;
+    overflow: hidden;
+}
+#baralax-story .top h1 {
+    margin-top: 0px;
+    font-size: 14px;
+    padding: 18px;
+}
+#baralax-story .col-md-8{
+    margin-right: -26px;
+}
+#baralax-story .under {
+    width: 100%;
+    height: 197%;
+    position: absolute;
+    background: url(../img/aboutus/aboutus.jpg) center 576px no-repeat;
+    background-size: 137%;
+    overflow: hidden;
+}
+
+
+#up {
+    background-color: #04607a;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    font-size: 30px;
+    display: none;
+    padding: 0 4px;
+    border-radius: 100px 100px 0px 0px;
+    z-index: 100;
+}
+
+}/*******************************************************************   @media End  max-width: 320px    *******/
+@media (max-width: 375px) {
+    #welcome {
+        position: relative;
+        margin-bottom: 247px;
+    }
+    .welcome h1 {
+        background-color: rgba(245, 192, 42, 0.42);
+        border-radius: 3px;
+        color: #000;
+        text-align: center;
+        font-size: 20px;
+        padding: 9px;
+        font-weight: bold;
+        font-variant: diagonal-fractions;
+    }
+    .welcome .more-info {
+        margin-top: 7px;
+    }
+    .welcome .info {
+        background-color: rgba(0,0,0,0.8);
+        width: 100%;
+        height: 112px;
+        color: #f5c02a;
+        font-size: 13px;
+        --moz--font-size: xxx-large;
+        border-radius: 6px;
+        padding: 9px;
+        margin-left: 0px;
+    }
+    #welcome .welcome {
+        background: url(../img/header.jpg) no-repeat center center;
+        background-size: 148%;
+        position: absolute;
+        height: 248px;
+    }    
+    #welcome .btn-lg, .btn-group-lg > .btn {
+        padding: 7px 7px;
+        font-size: 18px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+    #head .top p {
+        color: #fff;
+        font-size: 13px;
+        padding: 8px;
+        background-color: rgba(0,0,0,.7);
+        border-radius: 5px;
+    }
+    .latest {
+        margin-top: 0px; 
+    }
+
+    .padding {
+        padding: 0px 0;
+    }
+    h1 {
+        /* background-color: rgba(0,0,0,0.5); */
+        border-radius: 3px;
+        color: #FFF;
+        font-size: 20px;
+        padding: 0px 0 30px 0;
+        font-weight: bold;
+        font-variant: diagonal-fractions;
+    }
+    .latest .box {
+        width: 210px;
+        height: 293px;
+        background-color: blue;
+        /* border: 2px solid green; */
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 10px;
+        margin: 5px auto;
+    }
+    .latest div .sometext h5 {
+        padding: 35px;
+        margin: -6px 0 0px 0px;
+        font-size: 12px;
+    }
+    .latest div .sometext p {
+        padding: 9px;
+        margin: -20px 0 0px 0px;
+        column-count: 2;
+        font-size: 12px;
+    }
+    .scrib h5 {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 17px;
+        text-align: center;
+        margin: 13px 0px;
+        padding: 9px;
+    }
+    .scrib .scripe-box form [type="email"] {
+        width: 100%;
+        background-color: rgba(0,0,0,.11111111111);
+        font-size: 13px;
+        box-shadow: 0px 0px 12px 4px #fff;
+        color: #fff;
+        border: none;
+    }
+    .scrib .scripe-box hr {
+        margin-top: 20px;
+        margin-top: 12px;
+        width: 240px;
+        border: .8px red solid;
+    }
+    .offers h1 {
+        margin: 0 0 51px 0px;
+    }
+    .offers .offer-box {
+        width: 308px;
+        height: 398px;
+        position: relative;
+        --webkit--transition: all 10s ease-in-out;
+        transition: all 1.5s ease-in-out;
+        margin: 25px auto;
+    }
+    .offers .offer-box div span {
+        padding: 7px 0;
+        background-color: rgba(0,0,0,.5);
+        position: absolute;
+        top: -253px;
+        left: -12px;
+        width: 53px;
+        height: 51px;
+        line-height: 35px;
+        text-align: -webkit-center;
+        --moz--text-align: center;
+        text-align: center;
+        border-radius: 50px;
+        border: 1px solid blueviolet;
+    }
+    .deal h1 {
+        margin: 35px 0;
+    }
+    .deal h2{
+        font-size: 25px;
+    }
+    .deal  .btn{
+        margin-bottom: 10px;
+    }
+    .Testimonials>div>img {
+        margin-top: -50px;
+        position: absolute;
+        width: 73px;
+    }
+    .Testimonials h1 {
+        margin-top: 26px;
+    }
+    .partener .partener-box .ul ul li {
+        /* background-color: red; */
+        list-style: none;
+        display: -moz-inline-box;
+        --webkit--display: inline-box;
+        margin: 8px -59px 7px -54px;
+
+    }
+
+    .partener .partener-box .ul ul li img {
+        width: 30%;
+        border-radius: 20px;
+        --webkit--transition: all 1s ease-in-out;
+        --moz--transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+    }
+
+    .End .left-side ul a img {
+        width: 47%;
+        margin-top: 3px;
+    }
+    .End .right-side p, .End .right-side form p {
+        padding: 10px;
+        color: #fff;
+    }
+    #up {
+        font-size: 31px;
+    }
+
+    /*///////////////////////////////*/
+    #baralax .under {
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+        position: absolute;
+        background: url(../img/hotels/paralax.jpg) center center no-repeat;
+        overflow: hidden;
+        background-size: 100%;
+    }
+    #baralax {
+        width: 100%;
+        height: 219px;
+        position: relative;
+        overflow: hidden;
+    }
+    .Hotels p {
+        padding: 20px;
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+    .Hotels .btn {
+        padding: 5px 5px;
+        font-size: 14px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+    }
+    .Hotels .hotel-box h3 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .Hotels .hotel-box div {
+        padding: 5px 34px 0px 0px;
+    }
+    .Hotels .hotel-box {
+        padding: 6px 15px 0 5px;
+        border-bottom: 1px solid #000;
+        margin-bottom: 50px;
+    }
+    .Hotels .right-side {
+        background-color: #03b6e7;
+    }
+    #baralax-trip .under {
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+        position: absolute;
+        background: url(../img/trip/trip.JPG) center center no-repeat;
+        background-size: 100%;
+        overflow: hidden;
+    }
+    #baralax-trip {
+        width: 100%;
+        height: 199px;
+        position: relative;
+        overflow: hidden;
+    }
+    #baralax-trip .top h1 {
+        margin-top: 51px;
+        font-size: 22px;
+    }
+     .btn-lg, .btn-group-lg > .btn {
+        padding: 6px 11px;
+        font-size: 14px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+    }
+    #baralax-news .top h1 {
+        margin-top: 51px;
+        font-size: 23px;
+    }
+    #baralax-news .under {
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+        position: absolute;
+        background: url(../img/news/heade.jpg) center center no-repeat;
+        background-size: 120%;
+        overflow: hidden;
+    }
+    #baralax-news {
+        width: 100%;
+        height: 175px;
+        position: relative;
+        overflow: hidden;
+    }
+    .topNews .box1 {
+        background: url(../img/news/topNews.jpg) center center no-repeat;
+        background-size: 100%;
+        height: 100%;
+        background-color: green;
+    }
+    .topNews .box1 div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(253, 253, 253, 0.8);
+        padding: 13px;
+    }
+    .topNews .box1 div h3 {
+        font-style: inherit;
+        font-variant: all-small-caps;
+        font-size: 25px;
+        font-weight: 600;
+        text-shadow: 0px 1px 23px #000;
+    }
+    .all-news .text h3 {
+        text-shadow: 0px 1px 23px #8ee688;
+        color: #f5c02a;
+        background-color: rgba(0,0,0,.5);
+        height: 100%;
+        line-height: 299px;
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .all-news .text {
+        margin: 22px 0;
+        height: 255px;
+        background: url(../img/news/victoria.jpg) center center no-repeat fixed;
+        text-shadow: 0px 1px 23px #000;
+        background-size: ;
+    }
+    .all-news .box p {
+        font-size: 11px;
+    }
+    .all-news .btn{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .statistc .backgroun .box i {
+        font-size: 60px;
+        color: #f5c02a;
+        margin-left: 0;
+    }
+    .statistc .backgroun .box span {
+        display: inherit;
+        text-align: center;
+        font-size: 23px;
+    }
+    .statistc .backgroun .box p {
+        font-size: 17px;
+        display: block;
+    }
+    .statistc {
+        margin: 3px 0;
+        background: url(../img/news/statistc.JPG) center center no-repeat fixed;
+        text-shadow: 0px 1px 23px #000;
+        color: #f5c02a;
+        text-align: center;
+    }
+    .welcom p, .views p, .Mission p, .vision p {
+        color: #fff;
+        font-size: 11px;
+        padding: 23px;
+        background-color: rgba(0,0,0,.9);
+        border-radius: 5px;
+        text-shadow: 0px 0px 4px #f5c02a;
+    }
+    #baralax-story .top p {
+        color: #fff;
+        font-size: 10px;
+        padding: 16px;
+        background-color: rgba(0,0,0,.7);
+        border-radius: 5px;
+        /* text-shadow: 0px 0px 4px #f5c02a; */
+        font-variant-caps: small-caps;
+    }
+    #baralax-story {
+        width: 100%;
+        height: 470px;
+        position: relative;
+        overflow: hidden;
+    }
+    #baralax-story #story{
+        width: 261px;
+        margin: -23px 0 0 93px;
+    }
+
+
+}/*******************************************************************   @media End  max-width: 375px    *******/
+
+@media (max-width: 568px) {
+#welcome {
+    position: relative;
+    margin-bottom: 269px;
+}
+.welcome h1 {
+    background-color: rgba(245, 192, 42, 0.42);
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    padding: 11px;
+    font-weight: bold;
+    font-variant: diagonal-fractions;
+}
+.welcome .info {
+    background-color: rgba(0,0,0,0.8);
+    width: 176px;
+    height: 166px;
+    color: #f5c02a;
+    font-size: 26px;
+    /* font-size: -webkit-xxx-large; */
+    /* --moz--font-size: xxx-large; */
+    border-radius: 6px;
+    padding: 9px;
+    margin-left: 0px;
+}
+.welcome .more-info .btn {
+    background-color: #95aabb;
+    border: none;
+    margin-bottom: 9px;
+    font-size: 14px;
+    padding: 10px;
+}
+.welcome .more-info {
+    margin-top: 42px;
+}
+#head .top p {
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 10px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+}
+.latest {
+    margin-top: 0px;
+}
+
+.latest .padding {
+    padding: 0px 0;
+}
+.padding {
+    padding: 0px 0;
+}
+.latest  h1 {
+    /* background-color: rgba(0,0,0,0.5); */
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 24px;
+    padding: 0px 0 25px 0;
+    font-weight: bold;
+    font-variant: diagonal-fractions;
+}
+
+.latest  .col-xs-6{
+    margin-bottom: 20px;
+}
+.latest div .sometext h5 {
+    padding: 34px 0px;
+    margin: 0px 0 0px 0px;
+    font-size: small;
+}
+.latest div .sometext p {
+    padding: 0px 0px;
+    margin: 0px 0 26px 0px;
+    column-count: 2;
+    font-size: small;
+}
+.scrib .scripe-box hr {
+    margin-top: 20px;
+    margin-top: 13px;
+    width: 240px;
+    border: .8px red solid;
+}
+.offers h1 {
+    margin: 0 0 0px 0px;
+}
+.offers .offer-box div span {
+    padding: 0px 0;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: -252px;
+    left: -6px;
+    width: 43px;
+    height: 43px;
+    line-height: 40px;
+    text-align: -webkit-center;
+    --moz--text-align: center;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid blueviolet;
+}
+.how-it-work .h1 {
+    /* background-color: rgba(0,0,0,0.5); */
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 30px;
+    padding: 25px 0 16px 0;
+    font-weight: bold;
+    font-variant: diagonal-fractions;
+}
+.deal h1 {
+    margin: 0px 0 0 0px;
+}
+.Testimonials>div>img {
+    margin-top: -50px;
+    position: absolute;
+    width: 70px;
+}
+.Testimonials h1 {
+    /* background-color: rgba(0,0,0,0.5); */
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 30px;
+    padding: 50px 0 21px 0;
+    font-weight: bold;
+    font-variant: diagonal-fractions;
+}
+
+
+
+
+
+
+
+
+}
+/*
+@media (min-width: 30em) and (orientation: landscape) { ... }
+
+
+@media (min-width: 768px) {...................}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px){
+
+}
+*/
+
+
+
+

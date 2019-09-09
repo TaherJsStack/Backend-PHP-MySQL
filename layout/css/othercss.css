@@ -1,0 +1,294 @@
+body{
+    background: url("../img/profile.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+/*======================= End Main Style ==================================*/
+.uper{
+	   color: #fff;
+    background-color: rgba(0,0,0,.5)
+}
+.uper-nav{
+    color: #fff;
+}
+.uper-nav div{
+    display: -webkit-inline-box;    
+    display: -moz-inline-box;
+    display: inline-box;
+}
+.uper-nav ul{
+    display: -webkit-inline-box;    
+    display: -moz-inline-box;
+    display: inline-box;
+    list-style: none;
+    margin-bottom: 0;
+}
+.uper-nav ul li a{
+    margin:0 3px ;
+    color: #fff;
+}
+
+/*======================= Navbar  ==================================*/
+.navbar{
+	margin-bottom: 0;
+	border:0;
+	border-radius: 0;}
+.dropdown-menu{
+	min-width: 130px;
+    padding: 0px 0;
+    margin: 2px 0 0;}
+.dropdown-menu,
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus{
+	color: #fff;
+	background-color: #34495e;
+	border: 0;}
+.navbar-inverse .navbar-nav > li > a{
+	color: #fff;}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0e0e0e;}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #f1fffc;
+    white-space: nowra}
+.navbar-brand > img {
+    display: block;
+    width: 117px;
+    margin: -6px auto;}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: yellow;
+    text-shadow: 3px 3px 11px #ff2f2f;
+    
+}
+/*======================= End navebar ==================================*/
+/*======================= End Dashbord ==================================*/
+    /*======================= End Main Style ==================================*/
+
+.user_back {
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.user_back .user_login{
+    width: 300px;
+    margin: 150px auto}
+.user_back .user_login input{
+    margin-bottom: 10px 
+}
+.user_back .user_login h3{
+    color: #fff
+}
+    
+    /*======================= End login Style ==================================*/
+
+.user{
+    margin-top: 40px;
+    background-color: rgba(0,0,0,.8);
+    border-radius: 10px 20px 29px 40px;
+    border: 1px solid #fff;
+    box-shadow: 1px 8px 22px -3px #504f4f;
+    color: #fff;
+    padding: 50px;
+    margin-bottom: 100px
+}
+.user h2{
+    color: #f6f30c;
+    margin: 21px 0 75px 0;
+}
+.user h2 strong{
+    color: yellow;
+    text-shadow: 3px 3px 11px #ff2f2f;
+}
+.user ul {
+    background-color: rgba(0,0,0,.5);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    min-height: 315px;
+
+}
+.user ul h4{
+    color: #ff5151;
+    font-size: 21px;
+    font-style: oblique;
+    text-shadow: 2px 8px 15px #000;
+}
+.user ul li{
+    color: #ffc98e;
+    font-size: 16px;
+    padding: 3px 0;
+}
+.user ul li:nth-child(odd){
+    color: red;
+    background-color: #3e3d3b;
+}
+.user ul li span{
+    display: inline-block;
+    width: 102px;
+    font-weight: bold;
+    color: #e4e4e4;
+}
+
+
+    /*======================= End user Style ==================================*/
+    /*======================= profil Style ==================================*/
+    /*======================= End user Style ==================================*/
+    /*======================= End user Style ==================================*/
+
+.End{
+    background-color: #03b6e7;
+}
+.End .padding{
+    padding:40px; 
+}
+.End .right-side{
+}
+.End .right-side a{
+    color: #fff
+}
+.End .right-side hr{
+    border:1px solid blue;
+        margin-top: 35px;
+}
+.End .right-side p,
+.End .right-side form p{
+    padding-bottom: 10px;
+    color: #fff
+}
+.End .right-side form [type="email"]{
+    background-color: #03b6e7;
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    padding-left: 14px;
+}
+.End .right-side form [type="submit"]{
+    width: 19%;
+    color: white;
+    height: 35px;
+    background-color: #03b6e7;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.End .left-side ul{
+    list-style: none;
+    font-size: 17px;
+}
+.End .left-side ul a{
+    color: #fff;
+}
+
+.End .left-side ul a img{
+    width: 69%;
+    margin-top: 3px;
+}
+/*------------------------------------- End footer Section -----------------------------------------------------*/
+
+
+
+
+
+.Add .container{
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    padding: 100px 0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 568px) {
+
+
+    .Add .container {
+        background-color: rgba(0,0,0,.8);
+        color: #fff;
+        padding: 33px 23px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    .user {
+        margin-top: 14px;
+        background-color: rgba(0,0,0,.8);
+        border-radius: 10px 20px 29px 40px;
+        border: 1px solid #fff;
+        box-shadow: 1px 8px 22px -3px #504f4f;
+        color: #fff;
+        padding: 12px;
+        margin-bottom: 35px
+    }
+    .btn-lg, .btn-group-lg > .btn {
+        padding: 7px 9px;
+        font-size: 12px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+        margin-top: 7px;
+    }
+    .user_back .user_login {
+    width: 300px;
+    margin: 150px auto;
+    padding: 0 15px;
+    }
+    .user ul li {
+        color: #ffc98e;
+        font-size: 11px;
+        padding: 3px 0;
+    }
+    .user ul {
+        background-color: rgba(0,0,0,.5);
+        padding: 10px;
+        border: 1px solid;
+        border-radius: 6px;
+        min-height: 229px;
+    }
+.user h2 {
+    color: #f6f30c;
+    margin: 17px 0;
+    font-size: 19px;
+}
+.user ul h4 {
+    color: #ff5151;
+    font-size: 14px;
+    font-style: oblique;
+    text-shadow: 2px 8px 15px #000;
+}
+.user ul li span {
+    display: inline-block;
+    width: 55px;
+    font-weight: bold;
+    color: #e4e4e4;
+}
+.user .btn-xs, .btn-group-xs > .btn {
+    padding: 2px 7px;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+}/*///// End Of @media (max-width: 568px) ///////////**/
+
+
+
+
+    
